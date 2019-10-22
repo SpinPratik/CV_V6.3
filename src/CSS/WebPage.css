@@ -1,0 +1,95 @@
+﻿.alert
+{
+    background-color: #FFFFFF;
+}
+
+.b100
+{
+    background-position: center center;
+    background-image: url( '../images/batt/100.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b80
+{
+    background-position: center center;
+    background-image: url( '../images/batt/80.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b70
+{
+    background-position: center center;
+    background-image: url( '../images/batt/70.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b60
+{
+    background-position: center center;
+    background-image: url( '../images/batt/60.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b50
+{
+    background-position: center center;
+    background-image: url( '../images/batt/50.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b30
+{
+    background-position: center center;
+    background-image: url( '../images/batt/30.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b20
+{
+    background-position: center center;
+    background-image: url( '../images/batt/20.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b10
+{
+    background-position: center center;
+    background-image: url( '../images/batt/10.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b0
+{
+    background-position: center center;
+    background-image: url( '../images/batt/low2.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.na
+{
+    background-position: center center;
+    background-image: url( '../images/batt/na.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}

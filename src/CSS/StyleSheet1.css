@@ -1,0 +1,544 @@
+﻿.body
+{
+    background-image: url('../images/bgimage2.jpg');
+    font-family: Arial;
+    font-size: medium;
+    color: White;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+.panel
+{
+    background-image: url('../images/trans.gif');
+    background-repeat: repeat-x;
+    height: 43px;
+    width: 100%;
+}
+#content
+{
+    width: 750px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #FFF;
+    border: 1px solid #CCC;
+}
+
+hr
+{
+    border: none;
+    height: 1px;
+    line-height: 1px;
+    background: #CCC;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.clear
+{
+    clear: both;
+    line-height: 1px;
+    font-size: 1px;
+}
+h3
+{
+    margin: 0;
+    padding: 7px 0 0 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+div#feature_list
+{
+    width: 750px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+}
+
+div#feature_list ul
+{
+    position: absolute;
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#tabs
+{
+    left: 0;
+    z-index: 2;
+    width: 320px;
+}
+
+ul#tabs li
+{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+ul#tabs li img
+{
+    padding: 5px;
+    border: none;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+ul#tabs li a
+{
+    color: #222;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    height: 60px;
+    outline: none;
+}
+
+ul#tabs li a:hover
+{
+    text-decoration: underline;
+}
+
+ul#tabs li a.current
+{
+    background: url('../images/feature-tab-current.png');
+    color: #FFF;
+}
+
+ul#tabs li a.current:hover
+{
+    text-decoration: none;
+    cursor: default;
+}
+
+ul#output
+{
+    right: 0;
+    width: 463px;
+    height: 240px;
+    position: relative;
+}
+
+ul#output li
+{
+    position: absolute;
+    width: 463px;
+    height: 240px;
+}
+
+ul#output li a
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #FFF;
+    background: #000;
+    -moz-border-radius: 5px;
+}
+
+ul#output li a:hover
+{
+    background: #D33431;
+}
+
+.test
+{
+    background: url('../images/trans.png');
+    background-repeat: repeat;
+    height: 1000px;
+}
+
+.header
+{
+    background-image: url('../images/header-overlay.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    top: 0px;
+}
+
+.logo
+{
+    background-image: url('../images/Synclogo.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 28px;
+    top: 20px;
+    left: 0px;
+    position: absolute;
+}
+.contents
+{
+    background-image: url('../images/bg-overlay.png');
+    top: 450px;
+    width: 972px;
+    height: 600px;
+    left: 10%;
+    position: absolute;
+}
+.contentMaster
+{
+    background-image: url('../images/bg-overlay.png');
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.divcontent
+{
+    background-image: url('../images/searchbg2.png');
+    background-repeat: repeat;
+    width: 350px;
+}
+
+.divBlock
+{
+    background-image: url('../images/panelbg.png');
+    width: 247px;
+    height: 304px;
+}
+.clock
+{
+    float: right;
+    top: 0px;
+    right: 0px;
+}
+
+.GridCss
+{
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.popuptable
+{
+    color: Blue;
+}
+
+#Historytable
+{
+    padding: 0;
+    margin: 0;
+}
+
+#Historytable caption
+{
+    padding: 0 0 0px 0;
+    font: 11px Arial, Helvetica;
+    text-align: right;
+}
+
+/*
+#Historytable td {
+    font: bold 11px  Arial, Helvetica ;
+    color: #4f6b72;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    background-image: url('../Images/tblbg.gif');
+    background-repeat:repeat-x ;
+}*/
+
+#Historytable th
+{
+    font: bold 13px Arial, Helvetica;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background-image: url('../menu/main-bg.png');
+    background-repeat: repeat-x;
+}
+
+#Historytable td.nobg
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0px solid #C1DAD7;
+    background: none;
+}
+
+#Historytable td
+{
+    font: arial;
+    font-size: 12px;
+    border-right: 0px;
+    border-bottom: 0px;
+    background: #fff;
+    padding: 6px 6px 6px 12px;
+    color: #4f6b72;
+    background-image: url('../Images/tblbg.gif');
+    background-repeat: repeat;
+}
+
+#Historytable td.alt
+{
+    background: #F5FAFA;
+    color: #797268;
+}
+
+#Historytable th.spec
+{
+    border-left: 0px;
+    border-top: 0;
+    background: #fff url(../Images/bullet1.gif) no-repeat;
+    font: bold 10px Arial, Helvetica;
+}
+
+#Historytable th.specalt
+{
+    border-left: 0px solid #C1DAD7;
+    border-top: 0;
+    background: #f5fafa url(../Images/bullet2.gif) no-repeat;
+    font: bold 10px Arial, Helvetica;
+    color: #797268;
+}
+
+/*
+For Top Grid View
+*/
+
+.StatusGridview
+{
+    padding: 0;
+    margin: 0;
+}
+
+.StatusGridViewStyle
+{
+    font-family: Arial;
+    font-size: small;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: #1d1d1d 5px solid;
+    color: White;
+}
+
+.StatusHeaderStyle, .StatusPagerStyle /*Common Styles*/
+{
+    font: bold 13px Arial, Helvetica;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background-image: url('../menu/main-bg.png');
+    background-repeat: repeat-x;
+}
+
+.StatusRowStyle td, .StatusAltRowStyle td, .StatusSelectedRowStyle td, .StatusEditRowStyle td /*Common Styles*/ /*Common Styles*/
+{
+    font: arial;
+    font-size: 12px;
+    border-right: 0px;
+    border-bottom: 0px;
+    min-height: 12px;
+    background: #fff;
+    padding: 6px 6px 6px 12px;
+    color: #4f6b72;
+    background-image: url('../Images/tblbg.gif');
+    background-repeat: repeat;
+    padding: 5px;
+    border-right: solid 1px #1d1d1d;
+}
+
+/* FOR History Grid View */
+
+.GridViewStyle
+{
+    font-family: Arial;
+    font-size: small;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: #1d1d1d 5px solid;
+    color: Black;
+}
+
+/*Header and Pager styles*/
+.HeaderStyle, .PagerStyle /*Common Styles*/
+{
+    background-image: url(../Images/HeaderGlassBlack.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-color: #1d1d1d;
+}
+
+.HeaderStyle th
+{
+    padding: 5px;
+    color: #ffffff;
+}
+
+.HeaderStyle a
+{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    text-align: left;
+    font-weight: normal;
+}
+
+.PagerStyle table
+{
+    text-align: center;
+    margin: auto;
+}
+
+.PagerStyle table td
+{
+    border: 0px;
+    padding: 5px;
+}
+
+.PagerStyle td
+{
+    border-top: #1d1d1d 3px solid;
+}
+
+.PagerStyle a
+{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    border-top: solid 1px #777777;
+    border-right: solid 1px #333333;
+    border-bottom: solid 1px #333333;
+    border-left: solid 1px #777777;
+}
+
+.PagerStyle span
+{
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+}
+
+/*RowStyles*/
+
+.RowStyle td, .AltRowStyle td, .SelectedRowStyle td, .EditRowStyle td /*Common Styles*/
+{
+    padding: 5px;
+    border-right: solid 1px #1d1d1d;
+}
+
+.RowStyle td
+{
+    background-color: #c9c9c9;
+}
+
+.AltRowStyle td
+{
+    background-color: #f0f0f0;
+}
+
+.SelectedRowStyle td
+{
+    background-color: #000000;
+}
+
+FOR battery CSS .alert
+{
+    background-color: #FFFFFF;
+}
+
+.b100
+{
+    background-position: center center;
+    background-image: url( '../images/batt/100.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b80
+{
+    background-position: center center;
+    background-image: url( '../images/batt/80.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b70
+{
+    background-position: center center;
+    background-image: url( '../images/batt/70.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b60
+{
+    background-position: center center;
+    background-image: url( '../images/batt/60.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b50
+{
+    background-position: center center;
+    background-image: url( '../images/batt/50.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b30
+{
+    background-position: center center;
+    background-image: url( '../images/batt/30.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b20
+{
+    background-position: center center;
+    background-image: url( '../images/batt/20.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b10
+{
+    background-position: center center;
+    background-image: url( '../images/batt/10.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.b0
+{
+    background-position: center center;
+    background-image: url( '../images/batt/low2.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}
+.na
+{
+    background-position: center center;
+    background-image: url( '../images/batt/na.gif' );
+    background-repeat: no-repeat;
+    text-align: center;
+    color: White;
+    font-weight: bold;
+}

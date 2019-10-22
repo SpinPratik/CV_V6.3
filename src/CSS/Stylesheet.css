@@ -1,0 +1,230 @@
+﻿body
+{
+    margin: 0px;
+    top: 0px;
+    left: 0px; /*background-color:#e0ecff;/*D8DFEA;*/
+    font-family: Arial;
+}
+
+.tdhead
+{
+    text-align: right;
+    vertical-align: top;
+}
+.cmbbox
+{
+    text-align: right;
+}
+.delayPT
+{
+    color: RED;
+}
+
+.protrac
+{
+    background-image: url('images/protrac.png');
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+.ready
+{
+    color: Blue;
+    text-align: center;
+    font-weight: bold;
+    background-image: url('img/bgimg2.gif');
+    background-repeat: repeat;
+    font-family: Arial;
+}
+
+.divblock
+{
+    text-align: left;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 189px;
+    width: 325px;
+    background-color: #EFF3FB;
+    background-image: url('images/divbg.png');
+    background-repeat: repeat-x;
+    scrollbar-arrow-color: white;
+    scrollbar-base-color: black;
+    scrollbar-dark-shadow-color: black;
+    scrollbar-track-color: gray;
+    scrollbar-face-color: gray;
+    scrollbar-shadow-color: black;
+    scrollbar-highlight-color: black;
+    scrollbar-3d-light-color: black;
+}
+
+.divblockIdel
+{
+    text-align: left;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 200px;
+    width: 100%;
+    background-color: #EFF3FB;
+    background-image: url('images/divbg.png');
+    background-repeat: repeat-x;
+    scrollbar-arrow-color: white;
+    scrollbar-base-color: black;
+    scrollbar-dark-shadow-color: black;
+    scrollbar-track-color: gray;
+    scrollbar-face-color: gray;
+    scrollbar-shadow-color: black;
+    scrollbar-highlight-color: black;
+    scrollbar-3d-light-color: black;
+}
+
+.panel1Blue
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: #003399;
+    font-weight: bold;
+    color: White;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1Red
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: #fc9292;
+    font-weight: bold;
+    color: White;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1Green
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: #A7CC95;
+    font-weight: bold;
+    color: White;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1White
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: white;
+    font-weight: bold;
+    color: Black;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1Yellow
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: #FFFA73;
+    font-weight: bold;
+    color: Black;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1Orange
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: Orange;
+    font-weight: bold;
+    color: Black;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1Violet
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: #6600cc; /*opacity:0.7;*/
+    font-weight: bold;
+    color: White;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1Brown
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: #cc6666; /*opacity:0.7;*/
+    font-weight: bold;
+    color: White;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1Olive
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: #666633; /*opacity:0.7;*/
+    font-weight: bold;
+    color: White;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.panel1Teal
+{
+    text-align: center;
+    height: 24px;
+    position: static;
+    background-color: #006699; /*opacity:0.7;*/
+    font-weight: bold;
+    color: White;
+    border-radius: 5em 5em 1em 1em;
+}
+
+.gridnormal
+{
+    background-image: url('bg1.png');
+    height: 56px;
+    text-align: center;
+}
+
+.gridnormal2
+{
+    background-image: url('bg2.png');
+    text-align: center;
+}
+
+.bodybg
+{
+    background-image: url('bodybg.png');
+    background-repeat: repeat;
+    overflow: auto;
+}
+
+.rework
+{
+    text-align: center;
+    font-weight: bold;
+    background-image: url('img/rework.png');
+    background-repeat: repeat;
+    font-family: Arial;
+}
+
+.countStyle
+{
+    height: 100%;
+    color: red;
+    width: 18px;
+    border: solid 1px gray;
+    border-radius: 50%;
+    background-color: White;
+    font-family: Arial;
+    font-size: small;
+    text-align: center;
+}

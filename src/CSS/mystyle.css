@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Consolas;
+    font-size: 13px;
+    color: #666666;
+}
+a, img
+{
+    text-decoration: none;
+}
+p
+{
+    padding: 0;
+    margin: 0;
+}
+p
+{
+    color: #666666;
+    font-size: 11px;
+    line-height: 16px;
+}
+p b
+{
+    color: #666666;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.news
+{
+    width: 980px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    background: url(../images/news.jpg) no-repeat;
+    height: 48px;
+}
+.news .content
+{
+    width: 980px;
+    float: left;
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    font-size: 12px;
+    color: #333333;
+}
+.news .content .title
+{
+    width: 58px;
+    float: left;
+    margin: 0px 0px 0px 20px;
+    padding: 0;
+    font-weight: bold;
+}
+.news .content .cnt
+{
+    width: 825px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.news .content .cnt .view
+{
+    width: 55px;
+    float: right;
+    margin: 0px -76px 0px 0px;
+    position: relative;
+    color: #178fde;
+}
+.news .content .cnt .view a
+{
+    color: #178fde;
+    font-size: 9px;
+    text-transform: uppercase;
+}

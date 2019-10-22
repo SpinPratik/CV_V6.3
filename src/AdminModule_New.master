@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminModule_New.master.cs" Inherits="AdminModule_New" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+ <%--   <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/demo.css" />--%>
+    <link rel="stylesheet" type="text/css" href="https://res.cloudinary.com/deekyp5bi/raw/upload/v1484285134/css/component.css" />  
+<%--  <script src="Bootstrap/jquery1.12.2.min.js"></script>--%>
+   <link href="https://res.cloudinary.com/deekyp5bi/raw/upload/v1484285057/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://res.cloudinary.com/deekyp5bi/raw/upload/v1484285057/Bootstrap/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <style>
+          .gn-icon {
+            color: white !important;
+        }
+
+        .gn-menu-wrapper.gn-open-all {
+            width: 265px;
+        }
+
+        /*.gn-menu-main, .gn-menu-main ul {
+            background-color: #3b3b3b;
+        }*/
+
+        .gn-menu-wrapper {
+            overflow-y: scroll;
+        }
+
+        .gn-submenu li a {
+            color: #c1c9d1 !important;
+            margin-left: 14px;
+            font-size: 14px;
+            font-weight:600;
+        }
+
+        /*.gn-menu-main ul {
+            background-color: #2f2f2f;
+        }*/
+
+        ::-webkit-scrollbar {
+            width: 5px;
+            height:8px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #e5e6e6;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+        }
+
+            ::-webkit-scrollbar-thumb:window-inactive {
+                background-color: #e5e6e6;
+            }
+
+        .gn-menu-main, .gn-menu-main ul {
+            /*line-height: 42px;*/
+        }
+
+        .gn-menu-wrapper.gn-open-all .gn-submenu li {
+            /*height: 46px;*/
+
+        }
+
+        /*.gn-menu-wrapper {
+            background-color: #3b3b3b;
+        }*/
+
+        .gn-menu {
+            border-bottom: unset !important;
+        }
+        body{
+background-color: rgba(228, 228, 228, 0.94);
+        }
+
+        .container > header {
+    margin: 0;
+    padding: 0 !important;
+    padding-left: 0 !important;
+}
+         a:hover {
+    text-decoration: none !important;
+}
+         .gn-menu-main > li:nth-last-child(2){
+             border-right:unset !important;
+         }
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="" style="height:100%;min-width:1100px;">
+        
+            <ul id="gn-menu" class="gn-menu-main" style="background-color: #FF7C23 !important;box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);">
+                  <%--<li>
+                    <a href="#">  <asp:ImageButton ImageUrl="images/left-arrow%20(1).png" ID="back" runat="server" OnClick="back_Click" style="margin-top:15px;"></asp:ImageButton></a>
+                </li>--%>
+                <li><a href="#" style="color: white; font-size: 21px;"><img src="https://res.cloudinary.com/deekyp5bi/image/upload/v1484297130/images/wms--logo.png"/></a></li>
+                <li style="width:225px;">
+                    <a href="#"> <img src="Images/user.png" />&nbsp;&nbsp;
+                        <asp:Label runat="server" ID="lbl_LoginName" style="color:white;text-transform:uppercase;text-decoration:none !important;"></asp:Label>               
+                    </a>
+                </li>
+               <li style="width:225px;border-right:unset !important;"><i class="fa fa-clock-o" style="color:white"></i> &nbsp;&nbsp;<asp:Label class="" ID="lbl_currTime" Font-Bold="true" style="color: white;text-transform:uppercase !important" runat="server" ></asp:Label></li>
+
+                <li style="border-left: 1px solid #c6d0da;"><a style="color: white;" href="#">
+                    <img src="https://res.cloudinary.com/deekyp5bi/image/upload/v1484297130/images/logo_spin.png" /></a></li> 
+                <li>  
+                  <asp:LinkButton ID="btn_logout" OnClick="btn_logout_Click" style="vertical-align: middle;color:white;" Text="logout"  runat="server"></asp:LinkButton>
+                  </li>            
+               
+            </ul>
+       
+        <br />
+            <header id="header" >
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <h1><span><a href="#"></a></span></h1>
+            </header>
+            
+           
+        </div>
+
+        <script src="https://res.cloudinary.com/deekyp5bi/raw/upload/v1484285057/js/classie.js"></script>
+        <script src="https://res.cloudinary.com/deekyp5bi/raw/upload/v1484285057/js/gnmenu.js"></script>
+        <script>
+            new gnMenu(document.getElementById('gn-menu'));
+        </script>
+    </form>
+</body>
+</html>

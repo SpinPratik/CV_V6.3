@@ -1,0 +1,567 @@
+﻿body
+{
+    font-family: Arial;
+    font-size: medium;
+}
+
+.tblMain
+{
+    width: 100%;
+}
+
+.tblDiv1
+{
+    width: 70%;
+}
+.tblDiv2
+{
+    width: 30%;
+}
+.tblEntry2
+{
+    width: 70%;
+}
+.tblEntry1
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 30%;
+    font-size: medium;
+    text-align: right;
+}
+
+.button
+{
+    background-color: #f3f3f3;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f3f3), color-stop(50%, #dddddd), color-stop(50%, #d2d2d2), color-stop(100%, #dfdfdf));
+    background-image: -webkit-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+    background-image: -moz-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+    background-image: -ms-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+    background-image: -o-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+    background-image: linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #b4b4b4;
+    border-right: 1px solid #dfdfdf;
+    border-radius: 5px;
+    color: #003399;
+    font: bold 12px/1 "Consolas" , Georgia;
+    margin: 0;
+    padding: 3px 0;
+    text-shadow: 0 1px 1px #fff;
+    width: 70px;
+}
+.button:hover
+{
+    background-color: #e5e5e5;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(50%, #d1d1d1), color-stop(50%, #c4c4c4), color-stop(100%, #b8b8b8));
+    background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+    background-image: -moz-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+    background-image: -ms-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+    background-image: -o-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+    background-image: linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+    cursor: pointer;
+}
+
+.tblDistri
+{
+    vertical-align: top;
+}
+.tblHead1
+{
+    background-color: Silver;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: medium;
+    color: #333333;
+    text-align: center;
+    vertical-align: top;
+    height: 25px;
+}
+
+.tblHead2
+{
+    background-color: #808080;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+    vertical-align: top;
+}
+.tblHead3
+{
+    background-color: #808080;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    width: 320px;
+    text-align: center;
+    vertical-align: top;
+}
+.tblHead4
+{
+    background-color: #808080;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.clmDistri
+{
+    width: 25%;
+    vertical-align: top;
+    font-family: arial;
+}
+
+.clmDistriSmall
+{
+    width: 100%;
+    vertical-align: top;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+
+.clmDistriSmall1
+{
+    vertical-align: top;
+    font-family: arial;
+    font-size: small;
+}
+
+.clmStyle
+{
+    font-size: small;
+    font-family: arial; /*vertical-align:top;*/
+}
+
+.clsValidator
+{
+    text-decoration: blink;
+    color: #333333;
+}
+
+.Headerdiv
+{
+    height: 70px;
+    width: 100%;
+    background-image: url( 'Images/protrac2-1.png' );
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.boddy
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: White;
+}
+/*.HeaderLeft
+         {
+            position: absolute;
+            width:33%;
+            font-family:Arial;
+            font-size:smaller;
+            font-weight:bold;
+            vertical-align:middle;
+            text-align:center;
+         }
+         .HeaderCenter
+         {
+            width:34%;
+            font-size:30px;
+            color: #4682B4;
+            font-family:Arial;
+            vertical-align:middle;
+            text-align:center;
+         }
+         .HeaderRight
+         {
+             width:33%;
+             font-family:Arial;
+             font-weight:bold;
+             vertical-align:middle;
+             text-align:center;
+         }*/
+#contentBox
+{
+    height: 550px;
+    width: 100%;
+}
+.smallFont
+{
+    height: 17px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.fullStyle
+{
+    width: 100%;
+    overflow: scroll;
+    left: 0px;
+    height: 29px;
+}
+
+.field
+{
+    border-color: #dbdbdb;
+}
+
+.field:focus
+{
+    /* When you click on the field... */
+    box-shadow: 0px 0px 8px Yellow;
+}
+
+.commonFont
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+    left: 0px;
+    top: 20px;
+}
+
+.tblStyle
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: small;
+    vertical-align: top;
+    height: auto;
+}
+.my-sticky-green
+{
+    background: url(../Images/Gitter/bggreen.gif);
+    background-repeat: repeat;
+    background-color: #99B3CC;
+    color: #cccccc;
+}
+
+.gritter-close
+{
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    background: url(../Images/Gitter/gritter.png) no-repeat left top;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.AdminHeaderdiv
+{
+    height: 110px;
+    width: 100%;
+    background-color: #99B3CC;
+}
+
+.AdminHeaderParts
+{
+    /*background-color:#666699;*/
+    width: 33%;
+    font-family: Arial;
+    font-size: small;
+}
+
+.CheckBoxClass
+{
+    display: none;
+}
+.CheckBoxLabelClass
+{
+    background: url("UnCheck.png" ) no-repeat;
+    padding-left: 30px;
+    padding-top: 3px;
+    margin: 5px;
+    height: 28px;
+    width: 150px;
+}
+.CheckBoxLabelClass:hover
+{
+    text-decoration: underline;
+}
+.LabelSelected
+{
+    background: url("Check.png" ) no-repeat;
+}
+.modalBackground
+{
+    background-color: Gray; /*filter: alpha(opacity=70) !important;             opacity: 0.7;*/
+    top: 0px !important;
+    left: 0px !important;
+    position: absolute !important;
+    z-index: 999 !important;
+}
+.modalPopupPanel
+{
+    background-color: #ffffdd;
+    padding: 3px;
+    z-index: 1000;
+}
+.stylespan
+{
+    font: arial;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+
+.legimg
+{
+    width: 32px;
+    height: 32px;
+}
+.legData
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.NoData
+{
+    font-size: large;
+    top: 300px;
+    right: 50%;
+    text-align: center;
+    vertical-align: middle;
+    height: 200px;
+}
+
+.AppointCmbStyle
+{
+    width: 150px;
+}
+.heading
+{
+    font-size: small;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #007FCC;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid #7FCCFF;
+    border-right: 1px solid #7FCCFF;
+    border-top: 1px solid #7FCCFF;
+    border-left: 1px solid #7FCCFF;
+    background-image: url(../Images/bg11.png);
+    background-repeat: repeat;
+}
+.normal
+{
+    font-size: smaller;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: left;
+    background-color: #aaccee;
+    height: 75px;
+    width: 50px;
+    background-image: url(../Images/bgapp.png);
+    background-repeat: repeat;
+}
+
+.normal2
+{
+    font-size: smaller;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: left;
+    height: 10px;
+    width: 50px;
+    background-color: #ddeeff;
+    background-image: url(../Images/bgappalt.png);
+    background-repeat: repeat;
+}
+
+.ttip
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+.ttiphead
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.myStyle
+{
+    width: 111px;
+}
+#grdDisplay td
+{
+    background-position: center center; /*text-align:left;*/
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.GridPanel
+{
+    width: 100%;
+    height: 440px;
+    overflow: scroll;
+    position: fixed;
+    left: 1;
+    z-index: -1;
+}
+.grdHeader
+{
+    position: fixed;
+    width: 100%;
+}
+
+.ttipHeadItem
+{
+    width: 80px; /*font-size:medium;         	/*background-color:#2461BF;         	color:White;*/
+}
+.ttipHeadVal
+{
+    width: 120px; /*font-size:medium;         	/*background-color:#2461BF;         	color:White;*/
+}
+.ttipStyle
+{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+    vertical-align: top;
+    left: 0px;
+}
+.ttipBodyHead
+{
+    width: 150px;
+    vertical-align: top;
+}
+.dealerDetailHead
+{
+    width: 150px;
+}
+.dealerDetailValue
+{
+    width: 180px;
+}
+.tblHeadsCol
+{
+    width: 15%;
+    vertical-align: top;
+}
+.tblDatasCol
+{
+}
+.tblDatasColSmall
+{
+    width: 15%;
+    vertical-align: top;
+}
+.tblAppointHead
+{
+    width: 150px;
+}
+.tblAppointData
+{
+}
+
+.allotTechType td
+{
+}
+.allotTechType th
+{
+    background-color: #666699;
+    color: White;
+}
+
+#timeLine
+{
+    table-layout: fixed;
+}
+#timeLine td
+{
+    padding-left: 1px;
+    padding-right: 0px;
+}
+
+.WorkMgrBlock
+{
+    color: White;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: small;
+    border-radius: 1em;
+    background-color: #653154; /*#222222;/*--black--//*#6666aa;/*--violet--//*/
+    box-shadow: 2px 2px 2px #000; /*background-image:url('/images/layer.png');         	background-repeat:no-repeat;         	background-position:center;*/
+}
+.WorkMgrBlockHead
+{
+    padding-left: 10px;
+    width: 130px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: left;
+}
+.WorkMgrBlockData
+{
+    color: #777;
+    text-align: center;
+    font-size: large;
+    vertical-align: middle;
+    width: 65px;
+    background-color: #e8eefd;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #000;
+}
+.WorkMgrHeader
+{
+    border-bottom: solid 1px white; /*opacity:0.75;*/
+}
+
+.myTabs #ajax__tab_outer
+{
+    padding: 0px 1px 0px 1px;
+    border: solid 1px brown;
+}
+.WorkTblRecHead
+{
+    width: 100px;
+    border-radius: 0px;
+    background-color: #333333;
+    color: #defdef;
+    box-shadow: 2px 2px 2px #888;
+    padding-left: 10px;
+}
+.WorkTblColHead
+{
+    border-bottom: solid 1px white;
+}
+.WorkTblColSubHead
+{
+    background-color: #494949; /*#66558f;*/
+    box-shadow: 0px 0px 2px #aaa;
+}
+.WorkTblRecField1
+{
+    background-color: #333333;
+    color: #defdef;
+    box-shadow: 2px 2px 2px #888;
+    width: 40px;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+}
+.WorkTblRecField2
+{
+    background-color: #333333;
+    color: #defdef;
+    box-shadow: 2px 2px 2px #888;
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    height: 100%;
+}
+.WorkTblRecField3
+{
+    background-color: #333333;
+    color: #defdef;
+    box-shadow: 2px 2px 2px #888;
+    width: 100%; /*border-radius: 5px 0px 0px 5px; */
+    text-align: center;
+    height: 100%;
+}
+.WorkTblRecField4
+{
+    background-color: #333333;
+    color: #defdef;
+    box-shadow: 2px 2px 2px #888;
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    height: 100%;
+}

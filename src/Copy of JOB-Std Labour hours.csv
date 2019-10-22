@@ -1,0 +1,17 @@
+Job Code,Job Code Desc,Standard Labour Hrs,Billing Hrs,Type,Parent Product Line,Status,Aggregate,Job Code Type
+11000,COMPRESSION CHECK,0.5,1.5,Labour,Adventure,Active,Engine,Major
+11000,COMPRESSION CHECK,1.5,1.5,Labour,Aria,Active,0,0
+11000,COMPRESSION CHECK,1.5,1.5,Labour,Aria,Active,0,0
+11000,COMPRESSION CHECK,1.5,1.5,Labour,Estate,Active,,
+11000,COMPRESSION CHECK,1.5,1.5,Labour,Fiat500,Active,,
+11000,COMPRESSION CHECK,1.2,1.2,Labour,Grande Punto,Active,,
+11000,COMPRESSION CHECK,1.5,1.4,Labour,Indica,Active,,
+11000,COMPRESSION CHECK,1.5,1.4,Labour,Indica Vista,Active,Engine and Accessories,Major Repair
+11000,COMPRESSION CHECK,1.5,1.4,Labour,Indigo,Active,,
+11000,COMPRESSION CHECK,1.5,1.4,Labour,Indigo Manza,Active,,
+11000,COMPRESSION CHECK,1.5,1.5,Labour,Linea,Active,0,0
+11000,COMPRESSION CHECK,1.5,1.5,Labour,Linea,Active,Engine,Major
+11000,COMPRESSION CHECK,1.5,1.4,Labour,Marina,Active,,
+11000,COMPRESSION CHECK,0.75,0.8,Labour,Nano,Active,,
+11000,COMPRESSION CHECK,1.5,1.5,Labour,Palio,Active,,
+11000,COMPRESSION CHECK,1.5,1.5,Labour,Palio,Active,Engine,Major

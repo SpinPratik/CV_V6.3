@@ -1,0 +1,91 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminModule.master" AutoEventWireup="true" CodeFile="SADisplayHome.aspx.cs" Inherits="SADisplayHome" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+ <style type="text/css">
+        .AdminHeaderParts
+        {
+            width: 33%;
+            /*font-family: Consolas,Georgia;*/
+            font-size: 13;
+        }
+
+        .cap
+        {
+            text-align: center;
+            background-color: Silver;
+            color: #333333;
+        }
+        .style1
+        {
+            height: 22px;
+            width: 210px;
+        }
+        .style2
+        {
+            width: 210px;
+        }
+    </style>
+    <script type="text/javascript">
+
+        function stopRKey(evt) {
+            var evt = (evt) ? evt : ((event) ? event : null);
+            var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+            if ((evt.keyCode == 8 || evt.keyCode == 46)) { return false; }
+        }
+
+        document.onkeypress = stopRKey;
+    </script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<table style="height: 100%; width: 100%; font-family: Consolas, Georgia; font-size: 15px;"
+        cellspacing="0" border="0" cellpadding="0">
+        <tr>
+            <td align="center" valign="middle">
+                <table style="width: 700px; height: 50px;" border="0" cellpadding="1" cellspacing="10">
+                    <tr>
+                        <td style="height: 22px;" align="center" bgcolor="Silver">
+                             Job Progress Display
+                        </td>
+                        <td style="height: 22px;" align="center" bgcolor="Silver">
+                           Job Allotment Display
+                        </td>
+                        <td align="center" bgcolor="Silver" class="style1" style="height: 22px;">
+                            FI Display
+                        </td>
+                       <td align="center" bgcolor="Silver" class="style1" style="height: 22px;">
+                             Wash Display
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" height="160">
+                           <asp:ImageButton ID="BtnCRMDisplay" runat="server" Height="100%" Width="200px" ImageUrl="~/MenuImages/CRM dis.png"
+                                ImageAlign="Middle" AlternateText="CRM Display" ToolTip="Job Progress Display"
+                                OnClick="BtnCRMDisplay_Click" />
+                        </td>
+                        <td align="center" height="160">
+                             <asp:ImageButton ID="BtnJobAllotmentDisplay" runat="server" Height="100%" Width="200px"
+                                ImageUrl="~/MenuImages/Job allotment diaplay.png" ImageAlign="Middle" AlternateText="Job Allotment Display"
+                                ToolTip="Job Allotment Display" OnClick="BtnJobAllotmentDisplay_Click" />
+                        </td>
+                        <td align="center" height="160">
+                              <asp:ImageButton ID="BtnFIDisplay" runat="server" Height="100%" Width="200px"
+                                ImageUrl="~/MenuImages/Customer Display.png" ImageAlign="Middle" AlternateText="FI Display"
+                                ToolTip="FI Display" onclick="BtnFIDisplay_Click"  />
+                        </td>
+                        <td align="center" height="160">
+                            <asp:ImageButton ID="BtnWashDisplay" runat="server" Height="100%" Width="200px"
+                                ImageUrl="~/MenuImages/Vehicle Status display.png" ImageAlign="Middle" AlternateText="Wash Display"
+                                ToolTip="Wash Display" onclick="BtnWashDisplay_Click"  />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 25px;">
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+

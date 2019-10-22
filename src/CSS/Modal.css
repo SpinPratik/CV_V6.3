@@ -1,0 +1,131 @@
+﻿body {
+    overflow:hidden;
+}
+ .ButtonOk{
+            color:white;
+            background-color:#2f99b9;
+        }
+        .ButtonCancel{
+            color:white;
+            /*background-color:#fb8400 ;*/
+        }
+        .txtboxdate {
+            outline: 0;
+            font-family: 'Raleway',sans-serif;
+            margin-top: 0px;
+            border: solid 1px #dcdcdc;
+            transition: box-shadow 0.3s, border 0.3s;
+            background-position: bottom 50%;
+}
+        .form_new{
+            width:1000px;
+        }
+        .text-control{
+            border: 1px solid rgba(31, 26, 26, 0.2);
+            padding: 0 0px 0px 8px;
+            width: 120px;
+            margin-left: 10px;
+        }
+        /*#DropDownList1{
+            width: 100%;
+            height: 22px;
+        }*/
+        .title{
+           color: rgba(31, 26, 26, 0.6);
+        }
+        .drag {
+           overflow: scroll;
+           height: 380px;
+           direction:rtl;
+        }
+        .drag1{
+           overflow: scroll;
+           height: 380px;
+        }
+
+        ::-webkit-scrollbar {
+        width: 3px;
+        }
+ 
+/* Track */
+/*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}*/
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /*-webkit-border-radius: 10px;
+    border-radius: 10px;*/
+    background:#2F99B9; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background-color:orange; 
+}
+/*.dropdiv1{
+    height: 100px;
+    border: none;
+    width: 34%;
+    border: 1px solid black;
+    background-color: rgba(160, 145, 95, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dropdiv{
+    height: 100px;
+    border: none;
+    width: 34%;
+    border: 1px solid black;
+    background-color: rgba(160, 145, 95, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+#external1{
+    direction:ltr;
+}
+ .list-group {
+     -webkit-box-shadow:unset !important; 
+     box-shadow: unset !important; 
+}
+ .text-control-drag{
+    height: 100px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgba(31, 26, 26, 0.2);
+    padding: 0 0px 0px 8px;
+    text-align:center;
+    text-size-adjust:auto;
+    font-size:large;
+  background-image: url('../Images/dropbox-xxl.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:70px;  
+    padding-top:20px;
+ }
+ /* WebKit browsers */
+::-webkit-input-placeholder { 
+    color: #045FB4;
+}
+ 
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
+   color: #045FB4;
+   opacity: 1;
+}
+ 
+/* Mozilla Firefox 19+ */
+::-moz-placeholder { 
+   color: #045FB4;
+   opacity: 1;
+}
+ 
+/* Internet Explorer 10+ */
+:-ms-input-placeholder { 
+   color: #045FB4;
+}
+ 
+ textarea
+        {
+            resize: none;
+        }

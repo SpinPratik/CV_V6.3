@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height:100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #060606;
+}
+
+#page_wrapper
+{
+    margin: 0px;
+    padding: 0px;
+    height:100%;
+    width:100%;
+    position: fixed;
+}
+.header
+{
+    background: url(../images/logo_section_bg.png) repeat-x;
+}
+
+.cust-disp
+{
+
+    font-family: "Holtwood One SC";
+    font-size: 38px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 40px;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #000;
+    background-color: ##FCE702;
+
+    /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+    /*font-weight: 600;*/
+    /*padding-top: 2%;*/
+    /*padding-bottom: 1%;*/
+    /*color: #000;*/
+    /*background-color: ##FCE702;*/
+    /*font-size: 38px;*/
+}
+
+.img
+{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.clock
+{
+    font-family: "Varela Round";
+    font-weight: bold;
+    /*font-family: Georgia, serif;*/
+    padding-right: 4%;
+    padding-top: 1%;
+    color: #000;
+    font-size: 32px;
+    /*background-color: #FCE702;*/
+}
+
+.flipper
+{
+    background-color: #060606;
+    padding-top: 1%;
+}
+
+.vno
+{
+    text-align:center;
+}
+
+.sa
+{
+    text-align:center;
+}
+
+.pdt
+{
+    text-align:center;
+}
+.st
+{
+    text-align:center;
+}
+
+.pos
+{
+    text-align:center;
+}
+
+
+.yellow-banner
+{
+
+    font-family: "Days One";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+
+    /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+    color: #313131;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background: url(../images/logo_section_bg.png) repeat-x;
+    font-size: 24px;
+    /*padding-top: 1%;*/
+    /*padding-bottom: 1%;*/
+    width: 100%;
+    font-weight: bold;
+    padding-top : 0.5%;
+    padding-bottom : 0.5%;
+}
+
+.example {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.splitflap {
+    margin: 0 auto;
+
+    -webkit-perspective-origin: top center;
+    -moz-perspective-origin: top center;
+    -ms-perspective-origin: top center;
+    perspective-origin: top center;
+
+    -webkit-perspective: 900px;
+    -moz-perspective: 900px;
+    -ms-perspective: 900px;
+    perspective: 900px;
+}
+
+div
+{
+    border: 0px solid green;
+}

@@ -1,0 +1,185 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin_New.master.cs" Inherits="Admin_New" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="your,keywords"/>
+		<meta name="description" content="Short explanation about this website"/>
+		
+		<link href='https://fonts.googleapis.com/css?family=Roboto:300italic,400italic,300,400,500,700,900' rel='stylesheet' type='text/css'/>
+		<link type="text/css" rel="stylesheet" href="../../assets/css/theme-default/bootstrap.css?1422792965" />
+		<link type="text/css" rel="stylesheet" href="../../assets/css/theme-default/materialadmin.css?1425466319" />
+		<link type="text/css" rel="stylesheet" href="../../assets/css/theme-default/font-awesome.min.css?1422529194" />
+		<link type="text/css" rel="stylesheet" href="../../assets/css/theme-default/material-design-iconic-font.min.css?1421434286" />
+       <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/demo.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/component.css" />
+
+    <link href="Bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <script src="Bootstrap/bootstrap.min.js"></script>
+        <script src="Bootstrap/jquery1.12.2.min.js"></script>
+
+        <style>
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+</style>
+<script>
+    $(function(){
+    $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            });
+    });
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="menubar-hoverable header-fixed ">
+    <form id="form1" runat="server">
+   <div class="" style="height:100%;min-width:1100px;">
+        
+            <ul id="gn-menu" class="gn-menu-main" style="background-color: #A62724 !important;">
+                 <li>
+                    <a href="#">  <asp:ImageButton ImageUrl="images/left-arrow%20(1).png" ID="back" runat="server" style="margin-top:15px;"></asp:ImageButton></a>
+                </li>
+                <li><a href="#" style="color: white; font-size: 21px;"><img src="images/wms--logo.png"/></a></li>
+                <li style="width:225px;">
+                    <a href="#">
+                        <asp:Label runat="server" ID="lbl_LoginName" style="color:white;text-transform:uppercase;text-decoration:none !important;"></asp:Label>               
+                    </a>
+                </li>
+               <li style="width:225px;border-right:unset !important;"><i class="fa fa-clock-o" style="color:white"></i> &nbsp;&nbsp;<asp:Label class="" ID="lbl_currTime" Font-Bold="true" style="color: white;text-transform:uppercase !important" runat="server" ></asp:Label></li>
+
+                <li style="border-left: 1px solid #c6d0da;"><a style="color: white;" href="#">
+                    <img src="Images/logo_spin.png" /></a></li> 
+                <li>  
+                  <asp:LinkButton ID="btn_logout" OnClick="btn_logout_Click" style="vertical-align: middle;color:white;" Text="logout"  runat="server"></asp:LinkButton>
+                  </li>            
+               
+            </ul>
+       
+        <br />
+       <header >
+       
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+     </header>
+            
+           
+        </div>
+
+        <div id="base">
+
+			<div class="offcanvas">
+			</div>
+			<div id="menubar" class="menubar-inverse ">
+				<div class="menubar-fixed-panel">
+					<div>
+						<a class="btn btn-icon-toggle btn-default menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
+							<i class="fa fa-bars"></i>
+						</a>
+					</div>
+					<div class="expanded">
+						<a href="../../html/dashboards/dashboard.html">
+							<span class="text-lg text-bold text-primary ">MATERIAL&nbsp;ADMIN</span>
+						</a>
+					</div>
+				</div>
+				<div class="menubar-scroll-panel">
+
+					<!-- BEGIN MAIN MENU -->
+					<ul id="main-menu" class="gui-controls">
+
+						<!-- BEGIN DASHBOARD -->
+						<li>
+							<a href="../../html/dashboards/dashboard.html" class="active">
+								<div class="gui-icon"><i class="md md-home"></i></div>
+								<span class="title">Workshop configuration</span>
+							</a>
+                            <ul>
+								<li><a href="AdminRegistration.aspx" ><span class="title">Dealer Details</span></a></li>
+								<li><a href="RFIDCards.aspx" ><span class="title">RFID Management</span></a></li>
+                                <li><a href="AdminRegistration.aspx" ><span class="title">Dealer Details</span></a></li>
+								<li><a href="RFIDCards.aspx" ><span class="title">RFID Management</span></a></li>
+                                <li><a href="AdminRegistration.aspx" ><span class="title">Dealer Details</span></a></li>
+								<li><a href="RFIDCards.aspx" ><span class="title">RFID Management</span></a></li>
+								
+							</ul><!--end /submenu -->
+						</li><!--end /menu-li -->
+						<!-- END DASHBOARD -->
+
+						<!-- BEGIN EMAIL -->
+						<li class="gui-folder">
+							<a>
+								<div class="gui-icon"><i class="md md-email"></i></div>
+								<span class="title">User configuration</span>
+							</a>
+							<!--start submenu -->
+							<ul>
+								<li><a href="UserManagement.aspx" ><span class="title">User Management</span></a></li>
+								<li><a href="Employee.aspx" ><span class="title">Employee DEtails</span></a></li>
+								
+							</ul><!--end /submenu -->
+						</li><!--end /menu-li -->
+						<!-- END EMAIL -->
+
+						<!-- BEGIN DASHBOARD -->
+						<li class="gui-folder">
+							<a >
+								<div class="gui-icon"><i class="md md-web"></i></div>
+								<span class="title">Service configuration</span>
+							</a>
+                            <ul>
+								<li><a href="../../html/ui/colors.html" ><span class="title">Colors</span></a></li>
+								<li><a href="../../html/ui/typography.html" ><span class="title">Typography</span></a></li>
+								<li><a href="../../html/ui/cards.html" ><span class="title">Cards</span></a></li>
+								<li><a href="../../html/ui/buttons.html" ><span class="title">Buttons</span></a></li></ul>
+						</li>
+					</ul>
+					<div class="menubar-foot-panel">
+						<small class="no-linebreak hidden-folded">
+							<span class="opacity-75">Copyright &copy; 2014</span> <strong>CodeCovers</strong>
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <script src="../../assets/js/libs/jquery/jquery-1.11.2.min.js"></script>
+		<script src="../../assets/js/libs/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script src="../../assets/js/libs/bootstrap/bootstrap.min.js"></script>
+		<script src="../../assets/js/libs/spin.js/spin.min.js"></script>
+		<script src="../../assets/js/libs/autosize/jquery.autosize.min.js"></script>
+		<script src="../../assets/js/libs/moment/moment.min.js"></script>
+	<script src="../../assets/js/core/source/App.js"></script>
+		<script src="../../assets/js/core/source/AppNavigation.js"></script>
+            <script type="text/javascript" src="js/classie.js"></script>
+        <script type="text/javascript" src="js/gnmenu.js"></script>
+        <script type="text/javascript">
+            new gnMenu(document.getElementById('gn-menu'));
+        </script>
+    </form>
+</body>
+</html>
